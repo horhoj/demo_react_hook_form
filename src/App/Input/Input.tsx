@@ -16,7 +16,7 @@ export const Input: FC<InputProps> = forwardRef<HTMLInputElement, InputProps>(
         <input
           className={classNames(
             styles.input,
-            variant === 'primary' ? styles.primary : 'secondary',
+            variant === 'primary' ? styles.primary : styles.secondary,
           )}
           {...props}
           ref={ref}
