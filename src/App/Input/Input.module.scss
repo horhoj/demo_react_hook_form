@@ -1,0 +1,18 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.input {
+  padding: 3px;
+}
+
+.label {
+  font-size: 10px;
+}
+
+.error {
+  font-size: 10px;
+  color: #990000;
+}
