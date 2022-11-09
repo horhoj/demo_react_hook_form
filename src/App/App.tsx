@@ -29,6 +29,7 @@ export const App: React.FC = () => {
         label={'Имя'}
         type="text"
         placeholder="имя"
+        variant={'primary'}
         {...register('name', {
           required: true,
           minLength: 2,
@@ -40,6 +41,7 @@ export const App: React.FC = () => {
         label={'Пароль'}
         type="password"
         placeholder="password"
+        variant={'secondary'}
         {...register('password', {
           required: true,
           minLength: 6,

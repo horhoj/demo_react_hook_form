@@ -8,6 +8,18 @@
   padding: 3px;
 }
 
+.primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.secondary {
+  .primary {
+    background-color: #fff;
+    color: #333;
+  }
+}
+
 .label {
   font-size: 10px;
 }
